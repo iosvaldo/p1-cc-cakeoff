@@ -34,7 +34,7 @@ fetch("http://localhost:3000/cakes")
 //5. next we create a variable for our list of cakes function below.
 let cakeList = document.getElementById("cake-list") // "cake-list" from the id="cake-list" in the index.html file...go have a look!
 
-//6. now we create the function that will be called in our fetch to see all the cakes or data
+//6. now we create the function that will be called in our fetch to see all the cake data
 function createNewLi(data){
   for(item of data){
     let newLi = document.createElement("li");
@@ -60,4 +60,4 @@ mainForm.addEventListener("submit", function(e){
 })
 
 
-///END OF LINE 😅
+///END OF LINE
